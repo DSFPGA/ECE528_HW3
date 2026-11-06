@@ -41,7 +41,7 @@ This register is used to enable or disable oversampling mode. This mode is used 
 
 - UCAxCTLW0 (Control Word 0)
 
-This register is used to configure several different settings of the module. First, this register can configure the module to have even parity, odd parity, or no parity. Second, this register can configure whether the module should transmit most significant bit (MSB) or least significant bit (LSB). Third, this register can determine whether the bit length of data to transmit should either be 7 or 8 bits. Fourth, this register can determine whether to use one or two stop bits. Fifth, this register can set the mode of the module to be UART, idle multiprocessor, address bit multiprocessor, or UART with automatic baud rate detection mode. Sixth, this register can set the module to be asynchronous or synchronous enable mode. Seventh, this register can set which clock source to use. Seventh, this register can enable receive error character or break character interrupts. Eighth, this register can set the module into sleep mode. Ninth, this register can identify the next frame transmitted to be either data or an address. Tenth, this register can identify the next frame to be transmited is a break or not. Lastly, this register can set the module into a reset or operational state [1].
+This register is used to configure several different settings of the module. The module can be configured to have even parity, odd parity, or no parity. It can transmit either most significant bit (MSB) or least significant bit (LSB) first. The bit length of data to transmit can be set to be either 7 or 8 bits. It can use one or two stop bits. It can set the mode of the module to be UART, idle multiprocessor, address bit multiprocessor, or UART with automatic baud rate detection mode. The module can be set to operate in either asynchronous or synchronous enable mode. It can choose which clock source to use. It can be enabled to have receive error character or break character interrupts. It can be placed into sleep mode. It can identify the next frame transmitted to be either data or an address. Additionally it can identify the next frame to be transmited is a break or not. Lastly, this register can set the module into a reset or operational state which should be done first before updating any other setting of the module [1].
 
 - UCAxRXBUF (Receive Buffer)
 
@@ -63,7 +63,9 @@ UCBUSY - bit 0
 - Whether a framing, parity, or overrun error has occurred
 
 UCFE - bit 6 - framing error
+
 UCPE - bit 4 - parity error
+
 UCOE - bit 5 - overrun error
 
 - Whether the RX buffer contains unread data
