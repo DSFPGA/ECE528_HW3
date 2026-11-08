@@ -22,11 +22,12 @@ N/A
 
 [1] "MSP432P4xx SimpleLink Microcontrollers Technical Reference Manual", Texas Instruments.
 
-[2] https://www.totalphase.com/blog/2021/12/i2c-vs-spi-vs-uart-introduction-and-comparison-similarities-differences/ 
+[2] J. Hopkins, “I2C vs SPI VS UART – introduction and comparison of their similarities and differences,” Total Phase Blog, https://www.totalphase.com/blog/2021/12/i2c-vs-spi-vs-uart-introduction-and-comparison-similarities-differences/ (accessed Nov. 8, 2026). 
 
-[3] https://www.seeedstudio.com/blog/2019/09/25/uart-vs-i2c-vs-spi-communication-protocols-and-uses/
+[3] yida, “SPI - introduction to serial peripheral interface,” Seed Studio, https://www.seeedstudio.com/blog/2019/11/22/spi-introduction-to-serial-peripheral-interface/ (accessed Nov. 8, 2026). 
 
-[4] https://www.seeedstudio.com/blog/2019/11/22/spi-introduction-to-serial-peripheral-interface/
+[4] yida, “Uart vs I2C VS SPI – Communication Protocols and uses,” Seed Studio, https://www.seeedstudio.com/blog/2019/09/25/uart-vs-i2c-vs-spi-communication-protocols-and-uses/ (accessed Nov. 8, 2026). 
+
 
 ## Section I: Review Questions
 
